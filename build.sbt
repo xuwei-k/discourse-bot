@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
   "com.novocode" % "junit-interface" % "0.11" % "test"
 )
 
-val unusedWarnings = Seq("-Ywarn-unused", "-Ywarn-unused-import")
+val unusedWarnings = Seq("-Ywarn-unused")
 
 scalacOptions ++= Seq(
   "-deprecation",
