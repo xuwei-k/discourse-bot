@@ -6,11 +6,11 @@ resolvers += Opts.resolver.sonatypeReleases
 
 scalaVersion := "2.12.6"
 
-val twitter4jVersion = "4.0.6"
+val twitter4jVersion = "4.0.7"
 
 libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-compiler" % scalaVersion.value,
-  "org.apache.commons" % "commons-text" % "1.2",
+  "org.apache.commons" % "commons-text" % "1.6",
   "org.twitter4j" % "twitter4j-core" % twitter4jVersion,
   "com.novocode" % "junit-interface" % "0.11" % "test"
 )
