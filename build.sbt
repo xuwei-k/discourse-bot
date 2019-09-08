@@ -2,8 +2,6 @@ name := "discourse-bot"
 
 licenses := Seq("MIT License" -> url("https://www.opensource.org/licenses/mit-license"))
 
-resolvers += Opts.resolver.sonatypeReleases
-
 scalaVersion := "2.12.6"
 
 val twitter4jVersion = "4.0.7"
