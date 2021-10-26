@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-compiler" % scalaVersion.value,
   "org.apache.commons" % "commons-text" % "1.9",
   "org.twitter4j" % "twitter4j-core" % twitter4jVersion,
-  "com.novocode" % "junit-interface" % "0.11" % "test"
+  "com.github.sbt" % "junit-interface" % "0.13.2" % "test"
 )
 
 val unusedWarnings = Seq("-Ywarn-unused")
