@@ -2,7 +2,7 @@ name := "discourse-bot"
 
 licenses := Seq("MIT License" -> url("https://www.opensource.org/licenses/mit-license"))
 
-scalaVersion := "2.12.15"
+scalaVersion := "2.12.16"
 
 val twitter4jVersion = "4.0.7"
 
