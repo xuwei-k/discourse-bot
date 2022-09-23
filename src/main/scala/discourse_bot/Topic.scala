@@ -19,9 +19,8 @@ final case class Topic(
   private[this] def formattedContent: String = {
     @tailrec
     def loop(str: String): String = {
-      val replaced = Topic.trimMap.foldLeft(str) {
-        case (s, (oldStr, newStr)) =>
-          s.replaceAll(oldStr, newStr)
+      val replaced = Topic.trimMap.foldLeft(str) { case (s, (oldStr, newStr)) =>
+        s.replaceAll(oldStr, newStr)
       }
       if (replaced != str) {
         loop(replaced)
