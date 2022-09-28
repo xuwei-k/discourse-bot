@@ -8,7 +8,7 @@ val twitter4jVersion = "4.0.7"
 
 libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-compiler" % scalaVersion.value,
-  "org.apache.commons" % "commons-text" % "1.9",
+  "org.apache.commons" % "commons-text" % "1.10.0",
   "org.twitter4j" % "twitter4j-core" % twitter4jVersion,
   "com.github.sbt" % "junit-interface" % "0.13.3" % "test"
 )
