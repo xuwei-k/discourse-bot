@@ -4,7 +4,7 @@ licenses := Seq("MIT License" -> url("https://www.opensource.org/licenses/mit-li
 
 scalaVersion := "2.12.17"
 
-val twitter4jVersion = "4.0.7"
+val twitter4jVersion = "4.1.1"
 
 libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-compiler" % scalaVersion.value,
